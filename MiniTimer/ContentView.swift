@@ -10,8 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack(alignment: .leading, spacing: 10 ) {
+            Text("Hello, World!")
+            Button(action: {}) {
+                Text("▸")
+            }
+        }
     }
 }
 
